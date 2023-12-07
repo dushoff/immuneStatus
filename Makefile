@@ -11,6 +11,8 @@ vim_session:
 
 ######################################################################
 
+Sources += $(wildcard *.R)
+
 autopipeR = defined
 dev.Rout: dev.R
 
